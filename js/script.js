@@ -26,11 +26,11 @@ function myButtonClicked() {
   buttonOnChecked = document.getElementById("flash1").checked
 
   if (buttonOnChecked == true) {
-    const randomNumber = Math.floor(Math.random() * 6) + 1
+    const randomNumber = Math.floor(Math.random() * 100) + 1
     document.getElementById("radio-button-value").innerHTML =
       "<p>Value is: " + randomNumber + " </p>"
   } else {
-    let randomNumber = Math.floor(Math.random() * 6) + 1
+    let randomNumber = Math.floor(Math.random() * 100) + 1
     randomNumber = randomNumber * -1
     document.getElementById("radio-button-value").innerHTML =
       "<p>Value is: " + randomNumber + " </p>"
